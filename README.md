@@ -15,7 +15,7 @@ Un plan de vida hecho app: en vez de una planilla o un PDF estático, el entrena
 
 ## Cómo está pensada
 
-El plan de entrenamiento y de comidas vive hardcodeado en el código, no en una base de datos: son decisiones tomadas de antemano, no datos que cambien solos. Lo único que se registra día a día (peso, calorías, tiradas, sueño, resultados de eventos) es lo que sí necesita persistirse.
+El plan de entrenamiento y de comidas vive hardcodeado en el código, no en base de datos: son decisiones tomadas de antemano, no datos que cambien solos. Lo único que se registra día a día (peso, calorías, tiradas, sueño, resultados de eventos) es lo que sí necesita persistirse.
 
 Stack: Next.js + React + TypeScript, con Supabase para lo que el usuario va registrando.
 
@@ -32,5 +32,3 @@ Necesita un proyecto de Supabase. Creá un archivo `.env.local` con:
 NEXT_PUBLIC_SUPABASE_URL=...
 NEXT_PUBLIC_SUPABASE_ANON_KEY=...
 ```
-
-Opcionales: `NEXT_PUBLIC_SITE_URL` y las claves de Cloudflare Turnstile (`NEXT_PUBLIC_TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET`, `TURNSTILE_HOSTNAMES`) para la protección anti-bots del login.
