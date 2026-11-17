@@ -1,6 +1,6 @@
 # Plan de Vida 2026
 
-> **Archivado.** Este proyecto evolucionó a **[Bakata](https://github.com/brian-pitz-dev/proyecto-integrador-Bakata-)** ([demo](https://bakata.netlify.app)), la versión multiusuario con coach IA.
+> **Archivado.** Este proyecto evolucionó a **[Bakata](https://github.com/brian-pitz-dev/bakata)** ([demo](https://bakata.netlify.app)), la versión multiusuario con coach IA.
 
 App personal para organizar entrenamiento, comidas y seguimiento de objetivos a lo largo de 2026: un 10K, la Procesión a Luján (80km) y una media maratón (21K).
 
